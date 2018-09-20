@@ -2,5 +2,6 @@
 Homebrew Formulae to ship binaries, powered by @replicatedhq
 
 ```
-brew install replicatedhq/ship
+brew tap replicatedhq/ship
+brew install ship
 ```
