@@ -1,9 +1,9 @@
 class Ship < Formula
   desc "Deploy 3rd party applications through modern pipelines."
   homepage "https://ship.replicated.com/"
-  url "https://github.com/replicatedhq/ship/releases/download/v0.20.0/ship_0.20.0_darwin_amd64.tar.gz"
-  version "0.20.0"
-  sha256 "d9776aaf90e7760bc5aef37d000d0976482c742006360aaa8552e187bad29a56"
+  url "https://github.com/replicatedhq/ship/releases/download/v0.21.0/ship_0.21.0_darwin_amd64.tar.gz"
+  version "0.21.0"
+  sha256 "31aff6c15e6b3cf964f724d5e74e4199db57954c2d7650fce03638138c04df6c"
 
   def install
     bin.install "ship"
