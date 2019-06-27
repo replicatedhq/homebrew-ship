@@ -2,14 +2,14 @@
 class Ship < Formula
   desc "Deploy 3rd party applications through modern pipelines"
   homepage "https://ship.replicated.com/"
-  version "0.47.1"
+  version "0.47.2"
 
   if OS.mac?
-    url "https://github.com/replicatedhq/ship/releases/download/v0.47.1/ship_0.47.1_darwin_amd64.tar.gz"
-    sha256 "02fb0928c483fb4c8766058069e892520f857bd218ba29b3a82437302a223053"
+    url "https://github.com/replicatedhq/ship/releases/download/v0.47.2/ship_0.47.2_darwin_amd64.tar.gz"
+    sha256 "4359434e0fb6fc07a0d47499d4841ad47b24f32c1ff5390d9f0caab49d1d6ce7"
   elsif OS.linux?
-    url "https://github.com/replicatedhq/ship/releases/download/v0.47.1/ship_0.47.1_linux_amd64.tar.gz"
-    sha256 "554e5156dfe167d70d193f277169044cd4ec4855f191e8ae457b76a8ec7e8d2a"
+    url "https://github.com/replicatedhq/ship/releases/download/v0.47.2/ship_0.47.2_linux_amd64.tar.gz"
+    sha256 "5ac9cb32d750a29e79ca5581fd32ac846ef6d637a7cdb88fb04d6f5b2e91aaaf"
   end
 
   def install
